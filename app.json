@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/device/device",
+    "pages/realtime/realtime",
+    "pages/settings/settings",
+    "pages/control/control",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0389c4",
+    "navigationBarTitleText": "极空BMS",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/realtime/realtime",
+        "text": "实时状态",
+        "iconPath": "images/tabbar/status.png",
+        "selectedIconPath": "images/tabbar/selected/status.png"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "参数设置",
+        "iconPath": "images/tabbar/settings.png",
+        "selectedIconPath": "images/tabbar/selected/settings.png"
+      },
+      {
+        "pagePath": "pages/control/control",
+        "text": "BMS控制",
+        "iconPath": "images/tabbar/control.png",
+        "selectedIconPath": "images/tabbar/selected/control.png"
+      },
+      {
+        "pagePath": "pages/device/device",
+        "text": "扫描设备",
+        "iconPath": "images/tabbar/bluetooth.png",
+        "selectedIconPath": "images/tabbar/selected/bluetooth.png"
+      }
+    ]
+  },
+  "debug": true
+}

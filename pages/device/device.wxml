@@ -1,0 +1,12 @@
+<!--pages/device/device.wxml-->
+<button bindtap='startScan'>扫描</button>
+<view>
+  <view>
+    <scroll-view class="scroll" scroll-top="{{scrollTop}}" style="height:580px;" scroll-y="true" bindscroll="scrll" bindscrolltolower="loadMore">
+      <view class="block" wx:for="{{listLi}}" wx:for-item="item">
+        <text>{{item.text}}</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="top" hidden="{{hidden}}" catchtap="goTop">⇧</view>
+</view>
