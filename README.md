@@ -1,1 +1,1 @@
-# wexinbms
+# wexin miniprogram BMS
